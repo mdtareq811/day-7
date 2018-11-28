@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <hr/>
+                <form action="demo.html" method="post">
+                <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" name="first_name" id="firstName" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label >Last Name</label>
+                    <input type="text" name="last_name" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Mobile Number</label>
+                    <input type="number" name="mobile_number" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Date Of Birth</label>
+                    <input type="date" name="date_of_birth" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label><input type="radio" name="gender" value="male"/> Male</label>
+                    <label><input type="radio" name="gender" value="female"/> Female</label>
+                </div>
+
+                <div class="form-group">
+                    <label>Address</label>
+                    <textarea name="address" class="form-control" rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>District Name</label>
+                    <select name="district_name" class="form-control">
+                        <option>----Select District Name----</option>
+                        <option value="dhaka">Dhaka</option>
+                        <option value="chittagong">Chittagong</option>
+                        <option value="sylhet">Sylhet</option>
+                        <option value="comilla">Comilla</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Image</label>
+                    <input type="file" name="image" accept="image/*" multiple/>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <label class="from-check-label">
+                        <input type="checkbox" name="agree" value="agree" class="form-check-input"/>HTML
+                    </label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                        <input type="checkbox" name="agree" value="agree" class="form-check-input"/>CSS
+                    </label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                       <input type="checkbox" name="agree" value="agree" class="form-check-input"/>PHP
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <input type="sumbit" name="btn" value="Submit" class="btn btn-success btn-block"/>
+                </div>
+                </form>
+            </div>
+
+            <div class="col-sm-8">
+                <hr/>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">First Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="first_name" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Last Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="last_name" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" name="email" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" name="password" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Mobile Number</label>
+                    <div class="col-sm-9">
+                        <input type="number" name="mobile_number" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Date Of Birth</label>
+                    <div class="col-sm-9">
+                        <input type="date" name="date_of_birth" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Gender</label>
+                    <div class="col-sm-9">
+                       <label> <input type="radio" name="gender" value="male"/>Male</label>
+                        <label> <input type="radio" name="gender" value="female"/>Female</label>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Address</label>
+                    <div class="col-sm-9">
+                        <textarea name="address" class="form-control"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">District Name</label>
+                    <div class="col-sm-9">
+                        <select name="district_name" class="form-control">
+                             <option>---Select District Name----</option>
+                             <option value="dhaka">Dhaka</option>
+                            <option value="chittagong">Chittagong</option>
+                            <option value="sylhet">Sylhet</option>
+                            <option value="comilla">Comilla</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Image</label>
+                    <div class="col-sm-9">
+                        <input type="file" name="image" accept="image/*"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3"></label>
+                    <div class="col-sm-9">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" class="form-check-input"/>I agree with all terms & conditons.
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input type="submit" name="btn" class="btn btn-primary btn-block" value="SubmiT"/>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
